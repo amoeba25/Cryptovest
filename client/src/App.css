@@ -1,0 +1,99 @@
+/* root styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&display=swap');
+
+:root {
+    --dark-blue: #05386B;
+    --dark-green: #379683;
+    --mint: #5CDB95;
+    --green: #8EE4AF;
+    --neon: #03EF62;
+    --white: #EDF5E1 ;
+}
+
+*{
+    font-family: 'Saira', sans-serif;
+    
+}
+
+
+/* Navbar styles */
+.navbar {
+    background-color: var(--dark-blue);
+    padding: 15px !important;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    color: white !important;
+    margin-right: 40px;
+    font-weight: 600;
+}
+.nav-item a:hover {
+    text-decoration: none;
+}
+#logout{
+    background-color: var(--neon);
+    border: none;
+    color: var(--dark-blue);
+    font-weight: bold;
+}
+
+
+
+/* Get Started page */
+
+.getStarted {
+    background-color: var(--dark-blue);
+    height: 100vh;
+    width: auto;
+}
+
+.starter-left {
+    background-color: inherit;
+    /* background-color: red; */
+    position: absolute;
+    top: 200px;
+    left: 100px;
+
+}
+
+.starter-left h1 {
+    font-size: 4em;
+    text-align: left;
+    font-weight: bold;
+    color: var(--neon);
+    line-height: 1.4em;
+}
+
+#signup-btn {
+    font-size: 2.5em;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    font-weight: 500;
+    position: relative;
+    left: 350px;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 2px 30px;
+    border: 3px solid #03EF62;
+    box-shadow: 6px 6px #000;
+    transition: top ease 0.5s;
+}
+
+#signup-btn:hover {
+    top: 10px;
+}
+
+.starter-right {
+    width: 50vw;
+    background-color: green;
+    position: absolute;
+    top: 200px;
+    right: 0px;
+}
+
+#eth {
+    height: 600px;
+   float: right;
+}
